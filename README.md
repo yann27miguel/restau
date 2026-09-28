@@ -37,3 +37,10 @@ Form Focus States: focus:outline-none focus:border-[#c5a059] focus:ring-1 focus:
 The most challenging part of the project was switching between English, French, and German without JavaScript:
 
 By using hidden semantic `` elements, I utilized CSS sibling selectors and Tailwind utility classes (hidden, `block`, and custom CSS rules) to dynamically display and hide text blocks (`.en-text`, `.fr-text`, `.de-text`) depending on which radio pill is active.
+
+What I Learned
+Speed of Iteration: Prototyping complex components (like multi-column degustation menus and reservation forms) is significantly faster once utility muscle memory kicks in.
+
+Maintainability: Tailwind eliminates naming fatigue (no more debating between .menu-item-inner-wrapper vs .card-body-content).
+
+Responsive Confidence: Writing mobile-first styles inline (text-base md:text-lg lg:text-xl) makes responsive testing immediate and intuitive.
